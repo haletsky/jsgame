@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta charset="utf-8" NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<title></title>
+<script src="js/main_game.js"></script>
+</head>
+
+<body id="bodyId" onload="main(); playerAnimation();" onkeydown="controlPlayerDown(event);" onkeyup="controlPlayerUp(event);" style="margin: 0; background-image: url(img/tumblr_n5bgs5I20c1tah9pwo1_1280.gif); background-size: 100%; background-repeat: no-repeat;" onresize="resizeEvent();">
+	<audio src="src/killmonster.mp3" id="music"></audio>
+	<audio src="src/nes-13-00.mp3" id="hit"></audio>
+	<audio src="src/hitu.mp3" id="hitu"></audio>
+	<audio src="src/jump.mp3" id="jumpu"></audio>
+	<p id="lvlId" align="center" style="position:absolute; top: -150px; margin-left:45%; font-size: 160px; font-family: Courier New; font-weight: bold; color:#A9E2F3">0</p>
+	<div id="player" style="position: absolute; top: 499; left: 500px">
+		<canvas id="plId" style="position: absolute; left:80px;" ></canvas>
+		<canvas id="wpId" style="position: absolute; top: 20px; left: 140px;" ></canvas>
+		<canvas style="border: 2px solid black; border-radius:10px; position: absolute; top: -30px; left: 80px;" width="60" height="10" id="hP"></canvas>
+	</div>
+
+	<div id="groundId" style="position: absolute; padding:3px; top: 566px; border-radius: 5px; background-image: url(img/kamen.jpg); margin: 0px">
+		
+	</div>
+</body>
+</html>
+
