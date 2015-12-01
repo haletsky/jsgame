@@ -1,2 +1,2 @@
-#Go http://haletsky.github.io/jsgame 
+#Little game on js 
 Control - use arrows for movement.
